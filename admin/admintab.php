@@ -33,7 +33,7 @@ $query->execute();
 
 while ($row = $query->fetch(PDO::FETCH_ASSOC)) {
     echo '<tr><td>' . $row['title'] . '</td>';
-    echo '<td><form action="/logbok/index.php?page=adminfunctions" method="POST">';
+    echo '<td><form action="/logbook/index.php?page=adminfunctions" method="POST">';
     echo '<input name="deactivate" type="submit" value="Make Inactive"></td>';
     echo '</tr>';
 }
