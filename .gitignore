@@ -9,7 +9,7 @@
 main/daily_log/uploads/*
 
 # ... except the tmp folder...
-main/daily_log/uploads/tmp
+!main/daily_log/uploads/tmp
 
 # ... but ignore everything IN the tmp folder
 main/daily_log/uploads/tmp/*
