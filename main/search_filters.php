@@ -13,7 +13,7 @@ processing.-->
 
 
 <?php
-include __DIR__ . "../common/info.inc";
+include __DIR__ . "/../common/info.inc";
 
 $connection = new PDO($dbinfo, $username, $password); 
 $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

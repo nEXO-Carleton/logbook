@@ -1,4 +1,4 @@
-<?#php include __DIR__ . "../common/info.inc"; ?>
+<?#php include __DIR__ . "/../common/info.inc"; ?>
 
 <html>
 <head>
@@ -7,7 +7,7 @@
 <link rel="icon" href="/logbook/favicon.ico">
 
 <?php
-#include __DIR__ . "../common/navigation.php";
+#include __DIR__ . "/../common/navigation.php";
 
 // If the month is set in the URL, set the month index to w/e month it is
 if (ISSET($_GET["month"]) && is_numeric($_GET["month"])) {

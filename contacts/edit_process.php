@@ -1,7 +1,7 @@
 <html>
 <body>
 <?php
-include __DIR__ . "../common/info.inc";
+include __DIR__ . "/../common/info.inc";
 $connection = new PDO("mysql:host=localhost;dbname=logbook", $username, $password);
 $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 echo "Processing...";
